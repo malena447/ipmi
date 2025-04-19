@@ -31,6 +31,10 @@ void setup(){
   noStroke();
   fill(12, 124, 108); //cortina derecha
   rect (586, 0, 35, 40);
+    noStroke(); //trapecio cuerpo 
+  fill(163, 101, 90);
+   quad(509, 315, 710, 315, 746, 378, 477, 378);
+  
   noStroke();
   fill(246, 217, 183); //cara
   ellipse (610, 206, 290, 290);
@@ -100,8 +104,6 @@ stroke(0); // Color de la línea (negro)
   strokeWeight(12);
   noFill();
   bezier(500, 307, 519, 369, 697, 370, 722, 305);
-
-
   
 }
   
